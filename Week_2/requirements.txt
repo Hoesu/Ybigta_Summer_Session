@@ -1,8 +1,9 @@
+swig
 gymnasium == 0.29.1
-numpy == 1.26.4
 tqdm == 4.66.1
+numpy == 1.24.4
+gymnasium[box2d]
 torch
 matplotlib
-gymnasium[box2d]
-opencv-python
+opencv-python==4.8.0.74
 stable-baselines3[extra]
